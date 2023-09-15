@@ -1,0 +1,516 @@
+::placeholder {
+  color: rgb(202, 202, 202);
+  font-family: "OpenSans-400";
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+}
+body,
+h4 {
+  margin: 0%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+.header {
+  height: 70px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.banner {
+  min-height: min-content;
+  height: 50vw;
+  background: url(/assets/img/Background-image.png);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  max-height: 800px;
+}
+.nav-item {
+  padding: 0 26px;
+  font-size: 1.4rem;
+  font-family: "OpenSans-400";
+  color: rgba(255, 255, 255, 0.69);
+  line-height: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin: 0;
+}
+.nav li {
+  display: inline-block;
+}
+.banner-content {
+  width: 1100px;
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.banner-title {
+  font-size: 3.6rem;
+  font-family: "Raleway-400";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 400;
+  margin: 22px 0;
+}
+.banner-description {
+  font-size: 1.6rem;
+  font-family: "Raleway-400";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.4438;
+  text-align: left;
+  padding-right: 82px;
+}
+.description {
+  width: 50%;
+}
+.Download-bt {
+  border-style: solid;
+  border-color: white;
+  padding: 12px 38px;
+  font-size: 1.5rem;
+  font-family: "OpenSans-600";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  background-color: transparent;
+  border-width: 3px;
+  margin-top: 25px;
+}
+.sign-up {
+  width: 100%;
+  height: min-content;
+  max-width: 365px;
+  background-color: white;
+  margin-left: auto;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.Try_Your_FREE_Trial_Today {
+  background-color: rgb(245, 245, 245);
+  font-size: 1.8rem;
+  font-family: "OpenSans-700";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  padding: 16px 0;
+  margin: 0;
+  letter-spacing: 1px;
+  border-radius: 5px 5px 0 0;
+}
+.sign-up-ip {
+  display: block;
+  border-width: 0 0 1px 0;
+  font-size: 1.6rem;
+  font-family: "OpenSans-600";
+  color: rgb(202, 202, 202);
+  width: 100%;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  margin-top: 38px;
+  border-color: rgb(202, 202, 202);
+}
+.get-start-bt {
+  margin-top: 50px;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  font-family: "OpenSans-400";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  background-color: rgb(255, 156, 81);
+  border: none;
+  border-radius: 0 0 5px 5px;
+}
+.Name {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(189, 189, 189);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 941.937px;
+  top: 303.1px;
+  z-index: 109;
+}
+#iconsBar {
+  color: white;
+  font-size: 4rem;
+  line-height: 70px;
+  display: none;
+}
+.slider {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  padding-top: 145px;
+  padding-bottom: 115px;
+  height: min-content;
+}
+.slider-bts {
+  margin-bottom: 20px;
+}
+.slider-content {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.slider-description h2 {
+  font-size: 2rem;
+  font-family: "OpenSans-700";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  margin-top: 8px;
+}
+.slider-description p {
+  font-size: 1.4rem;
+  font-family: "OpenSans-400";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+  text-align: left;
+  white-space: pre-line;
+}
+.slider-description > button {
+  height: 45px;
+  width: 130px;
+  border: none;
+  background-color: rgb(255, 139, 56);
+  color: white;
+  font-size: 1.5rem;
+  font-family: "OpenSans-700";
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.slider-bt {
+  border-width: 2px 0 0 0;
+  border-color: white;
+  width: 110px;
+  height: 110px;
+  background-color: rgb(51, 51, 51);
+  font-size: 1.5rem;
+  font-family: "OpenSans-700";
+  color: rgb(255, 255, 255);
+  line-height: 1.333;
+}
+.slider-description {
+  width: 475px;
+}
+.silder-image {
+  margin-top: 30px;
+}
+.SubList {
+  width: 100%;
+  height: min-content;
+  padding-top: 105px;
+  min-height: 600px;
+}
+.SubList-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.SubList-img {
+  transform: translateX(-40px);
+}
+.SubList-section {
+  width: 435px;
+}
+.SubList-section h3 {
+  font-size: 20px;
+  font-family: "OpenSans-700";
+  color: rgb(33, 33, 33);
+  line-height: 2.15;
+}
+.SubList-section p {
+  font-size: 14px;
+  font-family: "OpenSans-400";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+  margin-bottom: 15px;
+}
+.SubList-upload {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.SubList-upload h4 {
+  font-size: 14px;
+  font-family: "OpenSans-400";
+  color: rgb(33, 33, 33);
+  line-height: 1.214;
+  text-align: left;
+}
+.SubList-upload p {
+  font-size: 14px;
+  font-family: "OpenSans-400";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+  text-align: left;
+  margin-top: 6px;
+}
+.Standard {
+  width: 100%;
+  height: min-content;
+  padding-top: 105px;
+  background-color: rgb(245,245,245);
+  min-height: 525px;
+}
+.Standard-content{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Standard-section{
+  max-width: 440px;
+}
+.Standard-section h3{
+  font-size: 20px;
+  font-family: "OpenSans-700";
+  color: rgb(33, 33, 33);
+  line-height: 2.15;
+}
+.Standard-section p{
+  font-size: 1.3rem;
+  font-family: "OpenSans-400";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+  text-align: left;
+  white-space: pre-line;
+}
+.Standard-img{
+  transform: translateX(40px);
+}
+.WhyThisIs-content{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 105px;
+  text-align: center;
+  height: min-content;
+  min-height: 590px;
+}
+.WhyThisIs-content h1{
+  font-size: 3.6rem;
+  font-family: "Raleway-300";
+  color: rgb(33, 33, 33);
+  line-height: 1.194;
+}
+.WhyThisIs-content p{
+  font-size: 1.4rem;
+  font-family: "OpenSans-400";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+  margin-top: 25px;
+}
+.WhyThisIs-options{
+  width: 100%;
+  display: inline-flex;
+  gap: 4px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.WhyThisIs-options .option{
+  width: 33.3333%;
+  max-width: 355px;
+}
+.option img{
+  margin: 0 auto;
+  display: block;
+}
+.option h3{
+  font-size: 2rem;
+  font-family: "OpenSans-700";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
+.option p{
+  font-size: 1.4rem;
+  font-family: "OpenSans-400";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+}
+.Stylish{
+  background-image: url(/assets/img/u25_state0.png);
+  text-align: center;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 320px;
+}
+.Stylish-content h1{
+  color: white;
+  line-height: 1.2;
+  font-family: "Raleway-200";
+  font-size: 3.6rem;
+}
+.Stylish-content p{
+  font-size: 1.6rem;
+  font-family: "Raleway-200";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.2;
+  margin: 30px 0;
+}
+.Stylish-content button{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  width: 140px;
+  height: 45px;
+  font-size: 1.5rem;
+  font-family: "OpenSans-400";
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.ContactUs{
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.ContactUs h1{
+  font-size: 3.6rem;
+  font-family: "Raleway-300";
+  color: rgb(33, 33, 33);
+  line-height: 1.194;
+}
+.ContactUs p{
+  font-size: 1.4rem;
+  font-family: "OpenSans-400";
+  color: rgb(134, 135, 139);
+  line-height: 1.429;
+  margin: 30px 0;
+}
+.message{
+  margin-top: 70px;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.message input{
+width: 100%;
+display: block;
+ border-width: 0 0 1px 0;
+ border-color: rgb(202, 202, 202);
+ padding-left: 6px;
+ padding-bottom: 6px;
+ margin-bottom: 20px;
+ color: rgb(202, 202, 202);
+ margin-bottom: 32px;
+}
+.message textarea{
+  width: 47%;
+  display: block;
+   border-width: 0 0 1px 0;
+   border-color: rgb(202, 202, 202);
+   padding-left: 6px;
+   padding-bottom: 6px;
+   margin-bottom: 20px;
+   color: rgb(202, 202, 202);
+   resize: none;
+   margin-bottom: 32px;
+  }
+.ContactUs button{
+  background-color: rgb(255,156,81);
+  border: none;
+  width: 145px;
+  height: 45px;
+  font-size: 1.5rem;
+  font-family: "OpenSans-400";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  border-radius: 2px;
+  margin: 20px 0;
+}
+.footer{
+  height: 85px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer-icon{
+  margin: 0 auto;
+  width: max-content;
+  transform: translateX(-40px);
+}
+.footer-icon li{
+  display: inline-block;
+  font-size: 1.8rem;
+  color: rgb(204, 204, 204);
+  line-height: 1.2;
+  padding: 0 14px;
+}
+.footer p{
+  font-size: 1.2rem;
+  font-family: "Myriad Pro";
+  color: rgba(255, 255, 255, 0.502);
+  line-height: 1.2;
+  padding-bottom: 0;
+}
+#nav{
+  display: none;
+  width: 100%; 
+  height: max-content; 
+  background-color: black; 
+  position: fixed; top: 70px; 
+  right: 0px;
+  text-align: left; 
+  color: white;
+  padding-bottom: 20px;
+}
+#nav ul li{
+  display: inline-block;
+  justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
